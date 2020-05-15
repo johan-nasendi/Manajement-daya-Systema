@@ -1,0 +1,343 @@
+
+
+#showcase h1 {
+   font-size: 50px;
+   line-height: 1.3;
+   position: relative;
+   animation: heading;
+   animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes heading {
+  0% {top:-50px}
+  100% {top:6px}
+}
+
+.form-group {
+    background-image: linear-gradientrgb( yellow,DodgerBlue);
+}
+
+.jumbotron {
+    height: 1000px;
+    background-color:rgb(60, 179, 113);
+    background-image: linear-gradient(rgb(59, 216, 27));
+    position: relative;
+    
+
+}
+
+.jumbotron1 {
+    height: 100px;
+    background: linear-gradient(120deg, #164f75, #8e44ad);
+    color: #fff;
+}
+
+.jumbotron2 {
+  height: 100px;
+  background: linear-gradient(120deg, #164f75, #8e44ad);
+  color: #fff;
+} 
+
+.img {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.btn {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  font-size: 12px;
+  margin-top: 1rem 2rem;
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  transition-property: transform;
+  transition-duration: 1s; 
+
+/* }
+   .btn:hover{
+    transform: rotateY(120deg); */
+  } 
+
+@keyframes btn {
+  0% {opacity:0}
+  100% {opacity: 1;}
+}
+
+
+.btn1 {
+    height: 60px;
+    width: 100px;
+    position: relative;
+    font-size: 12px;
+}
+
+  
+  .btn1{
+    background: linear-gradient(120deg, #31bac4, #008f88);
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 2px;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .btn1:hover{
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+  }
+  
+  .btn1 .btn-ripple{
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    border-radius: 100%;
+    animation: ripple 1s;
+    transform: scale(0);
+  }
+  
+  @keyframes ripple {
+    100%{
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+  
+  .btn{
+    position: absolute;
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.icon {
+  padding: 10px;
+  background:rgb(60, 179, 113);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .btn{
+    position: absolute;
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    .btn{
+      background: linear-gradient(120deg, #31bac4, #63f35e);
+      font-size: 16px;
+      color: #fff;
+      padding: 10px 45px;
+      border: none;
+      border-radius: 25px;
+      box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 2px;
+      cursor: pointer;
+      outline: none;
+      overflow: hidden;
+    }
+    
+    .btn:hover{
+      background: linear-gradient(120deg, #3498db, #8e44ad);
+    }
+    
+    .btn .btn-ripple{
+      background: rgba(255, 255, 255, 0.3);
+      position: absolute;
+      border-radius: 100%;
+      animation: ripple 1s;
+      transform: scale(0);
+    }
+    
+    @keyframes ripple {
+      100%{
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+    
+    .portfolio {
+      min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    }
+    
+  .portfolio1 {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+  }
+
+
+    .card-body {
+      min-height: 50vh;
+      justify-content: center;
+      text-align: center;
+      background-image: linear-gradient(120deg, #214964, #8e44ad);
+      position: relative;
+      border-radius: 2px;
+      color: white;
+      text-align: left;
+      font-family: Courier New;
+    
+      
+    }
+    .card-body1 {
+      justify-content: center;
+      text-align: center;
+      text-align: left;
+      font-family: Courier New;
+    
+      
+    }
+    
+    .model {
+      display:ruby;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: #888;
+      padding-top: 60px;
+  }
+  
+  
+  .model1 {
+    display:ruby;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: linear-gradient(120deg, #214964, #8e44ad);
+    padding-top: 60px;
+    text-align: center;
+}
+
+.model2 {
+  display:ruby;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #888;
+  background-image: linear-gradient(rgb(129, 16, 16), rgb(44, 127, 204));
+  padding-top: 60px;
+  text-align: left;
+}
+
+
+
+
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 10% auto 10% auto; 
+  border: 3px solid rgb(200, 201, 201);
+  width: 50%; 
+  
+}
+
+.container1 .btn1 {
+  height: 40px;
+  width: 90px;
+  position: relative;
+  font-size: 14px;
+}
+
+
+
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 8% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+  text-align: center;
+}
+
+
+
+.modal-content3 {
+  background-color: #fefefe;
+  margin: 8% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+  text-align: left;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+ 
+
+ 

@@ -1,0 +1,103 @@
+body 
+{
+    background: #262626;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container
+   {
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide 
+  {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 380px;
+    background: #fff;
+    color: black;
+
+  }
+
+  .swiper-slide .imgbx {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .swiper-slide .imgbx img {
+    width: 100%;
+  }
+
+  .swiper-slide .details {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .swiper-slide .details h3{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+       text-align: center;
+       line-height: 20px;
+}
+
+.swiper-slide .details h3 span {
+  font-size: 16px;
+  color: #c42c38;
+}
+
+
+
+  .jumbotron1 {
+    height: 100px;
+    background: linear-gradient(120deg, #164f75, #8e44ad);
+    color: #fff;
+  }
+
+  .btn1 {
+    height: 10px;
+    width: 100px;
+    position: relative;
+    font-size: 12px;
+}
+
+  
+  .btn1{
+    background: linear-gradient(120deg, #31bac4, #008f88);
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 2px;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+  }
+
+  .btn1:hover{
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+  }
+  
+  .btn1 .btn-ripple{
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    border-radius: 100%;
+    animation: ripple 2s;
+    transition-duration: 3s;
+    transform: scale(0);
+  }
+  
+  @keyframes ripple {
+    100%{
+      transform: rotate3d(0);
+      opacity: 0s;
+    }
+  }
